@@ -10,3 +10,31 @@
 h1, h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
+
+#imgText{
+    width:100%;
+    bottom:10px;
+    /* position: absolute; */
+}
+
+#imgContainer{
+    /* TODO add margins between images in portfolio. */
+
+}
+@media screen and (max-width: 480px) {
+
+    #nameContainer{
+        margin-left:0;
+        margin-right:0;
+        justify-content: center;
+    }
+    #nameBg {
+      width:100%;
+      margin:0;
+      text-align:center;
+    }
+
+    .navbar{
+        margin:0 auto;
+    }
+}

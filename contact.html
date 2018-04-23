@@ -24,40 +24,39 @@
         crossorigin="anonymous"></script>
 
 
+    <!-- Create navigation bar. -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light pt-0 pb-0">
-        <div class="container">
-            <a class="navbar-brand bg-secondary text-light" href="index.html">
+        <div class="container px-0">
+            <a class="navbar-brand bg-secondary text-light" id="nameBg" href="index.html">
                 <div class="card-body pt-1 pb-1" class="headerBorder">
                     <h1 class="font-weight-bold">Eric Ng</h1>
                 </div>
             </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link text-secondary" href="index.html">About
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link border-left text-secondary" href="portfolio.html">Portfolio
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link border-left text-secondary" href="contact.html">Contact
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                </ul>
+            <!-- Create links on the right into navigation bar. -->
+            <div class="navbar" id="navbarSupportedContent">
+                <div id="navContainer">
+                    <ul class="d-flex flex-row navbar-nav ml-auto" id="navLinks">
+                        <li class="nav-item active px-2">
+                            <a class="nav-link text-secondary" href="index.html">About
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item active border-left px-2">
+                            <a class="nav-link text-secondary" href="portfolio.html">Portfolio
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item active border-left px-2">
+                            <a class="nav-link  text-secondary" href="contact.html">Contact
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
-
 
     <section class="container mt-5 mb-5">
         <br>

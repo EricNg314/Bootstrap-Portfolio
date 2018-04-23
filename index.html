@@ -23,47 +23,35 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
         crossorigin="anonymous"></script>
 
-
+    <!-- Create navigation bar. -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light pt-0 pb-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-2">
+        <div class="container px-0">
+            <a class="navbar-brand bg-secondary text-light" id="nameBg" href="index.html">
+                <div class="card-body pt-1 pb-1" class="headerBorder">
+                    <h1 class="font-weight-bold">Eric Ng</h1>
                 </div>
-                <div class="col-xs-2">
-                    <a class="navbar-brand bg-secondary text-light" href="index.html">
-                        <div class="card-body pt-1 pb-1" class="headerBorder">
-                            <h1 class="font-weight-bold">Eric Ng</h1>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-xs-4">
-                </div>
-                <div class="col-xs-2 ml-auto">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link text-secondary" href="index.html">About
-                                    <span class="sr-only">(current)</span>
-                                </a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link border-left text-secondary" href="portfolio.html">Portfolio
-                                    <span class="sr-only">(current)</span>
-                                </a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link border-left text-secondary" href="contact.html">Contact
-                                    <span class="sr-only">(current)</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-2">
+            </a>
+
+            <!-- Create links on the right into navigation bar. -->
+            <div class="navbar" id="navbarSupportedContent">
+                <div id="navContainer">
+                    <ul class="d-flex flex-row navbar-nav ml-auto" id="navLinks">
+                        <li class="nav-item active px-2">
+                            <a class="nav-link text-secondary" href="index.html">About
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item active border-left px-2">
+                            <a class="nav-link text-secondary" href="portfolio.html">Portfolio
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item active border-left px-2">
+                            <a class="nav-link  text-secondary" href="contact.html">Contact
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -74,37 +62,33 @@
         <br>
         <br>
         <br>
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="card">
-                    <header class="card-body">
-                        <h2 class="card-body border-bottom text-secondary font-weight-bold pl-0 mb-3" class="headerBorder">About</h2>
+        <div class="card">
+            <header class="card-body">
+                <h2 class="card-body border-bottom text-secondary font-weight-bold pl-0 mb-3" class="headerBorder">About</h2>
 
-                        <div>
-                            <img class="card-body w-25 img-fluid float-left pt-0 pl-0 pb-0" src="assets/images/Profile Picture.png" class="rounded float-left"
-                                alt="Image of Eric Ng">
-                            <p class="">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                            <p class="">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
-                                ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-                                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-                                magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-                                ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
-                                incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
-                                quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-                                consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
-                                molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-                            </p>
-                        </div>
-                    </header>
+                <div>
+                    <img width=320 height=160 class="card-body img-fluid float-left pt-0 pl-0 pb-0" src="assets/images/Profile Picture.png" class="rounded float-left"
+                        alt="Image of Eric Ng">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum.
+                    </p>
+                    <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
+                        ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
+                        enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                        dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
+                        dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore
+                        et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem
+                        ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum
+                        iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui
+                        dolorem eum fugiat quo voluptas nulla pariatur?
+                    </p>
                 </div>
-            </div>
+            </header>
         </div>
     </section>
 

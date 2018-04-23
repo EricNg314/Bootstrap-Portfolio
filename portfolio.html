@@ -24,36 +24,36 @@
         crossorigin="anonymous"></script>
 
 
+    <!-- Create navigation bar. -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light pt-0 pb-0">
-        <div class="container">
-            <a class="navbar-brand bg-secondary text-light" href="index.html">
+        <div class="container px-0">
+            <a class="navbar-brand bg-secondary text-light" id="nameBg" href="index.html">
                 <div class="card-body pt-1 pb-1" class="headerBorder">
                     <h1 class="font-weight-bold">Eric Ng</h1>
                 </div>
             </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link text-secondary" href="index.html">About
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link border-left text-secondary" href="portfolio.html">Portfolio
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link border-left text-secondary" href="contact.html">Contact
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                </ul>
+            <!-- Create links on the right into navigation bar. -->
+            <div class="navbar" id="navbarSupportedContent">
+                <div id="navContainer">
+                    <ul class="d-flex flex-row navbar-nav ml-auto" id="navLinks">
+                        <li class="nav-item active px-2">
+                            <a class="nav-link text-secondary" href="index.html">About
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item active border-left px-2">
+                            <a class="nav-link text-secondary" href="portfolio.html">Portfolio
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item active border-left px-2">
+                            <a class="nav-link  text-secondary" href="contact.html">Contact
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
@@ -66,55 +66,55 @@
             <header class="card-body">
                 <h2 class="card-body border-bottom text-secondary font-weight-bold pl-0 mb-3" class="headerBorder">Portfolio</h2>
 
-                <div class="row mb-5">
-                    <div class="col-md-4 mr-4">
+                <div class="row">
+                    <div class="col-md-4 mr-5 mb-5" id="imgContainer">
                         <div class="card" style="width: 18rem;">
                             <img class="card-img-top" src="assets/images/cats-q-c-640-480-3.jpg" alt="Cat starring">
-                            <div class="card-body position-absolute fixed-bottom px-0 py-2">
+                            <div class="card-body position-absolute px-0 py-2" id="imgText">
                                 <h5 class="card-title text-light bg-secondary text-center mb-0 py-3">Cat Adoptions</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mr-4">
+                    <div class="col-md-4 mr-5 mb-5" id="imgContainer">
                         <div class="card" style="width: 18rem;">
                             <img class="card-img-top" src="assets/images/cat-games_640-480-4.jpg" alt="Distracted cat">
-                            <div class="card-body position-absolute fixed-bottom px-0 py-2">
+                            <div class="card-body position-absolute px-0 py-2" id="imgText">
                                 <h5 class="card-title text-light bg-secondary text-center mb-0 py-3">Cat Entertainment</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row mb-5">
-                    <div class="col-md-4 mr-4">
+                <div class="row">
+                    <div class="col-md-4 mr-5 mb-5" id="imgContainer">
                         <div class="card" style="width: 18rem;">
                             <img class="card-img-top" src="assets/images/food-q-c-640-480-5.jpg" alt="Fresh vegetables">
-                            <div class="card-body position-absolute fixed-bottom px-0 py-2">
+                            <div class="card-body position-absolute px-0 py-2" id="imgText">
                                 <h5 class="card-title text-light bg-secondary text-center mb-0 py-3">Fresh Farmed Foods</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mr-4">
+                    <div class="col-md-4 mr-5 mb-5" id="imgContainer">
                         <div class="card" style="width: 18rem;">
                             <img class="card-img-top" src="assets/images/food-q-c-640-480-8.jpg" alt="Thai spring rolls">
-                            <div class="card-body position-absolute fixed-bottom px-0 py-2">
+                            <div class="card-body position-absolute px-0 py-2" id="imgText">
                                 <h5 class="card-title text-light bg-secondary text-center mb-0 py-3">Top Asian Cuisines</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row mb-5">
-                    <div class="col-md-4 mr-4">
+                <div class="row">
+                    <div class="col-md-4 mr-5 mb-5" id="imgContainer">
                         <div class="card" style="width: 18rem;">
                             <img class="card-img-top" src="assets/images/transport-q-c-640-480-9.jpg" alt="Train with mountain View">
-                            <div class="card-body position-absolute fixed-bottom px-0 py-2">
+                            <div class="card-body position-absolute px-0 py-2" id="imgText">
                                 <h5 class="card-title text-light bg-secondary text-center mb-0 py-3">Scenic Travels</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mr-4">
+                    <div class="col-md-4 mr-5 mb-5" id="imgContainer">
                         <div class="card" style="width: 18rem;">
                             <img class="card-img-top" src="assets/images/transport-q-c-640-480-1.jpg" alt="Parked airplane">
-                            <div class="card-body position-absolute fixed-bottom px-0 py-2">
+                            <div class="card-body position-absolute px-0 py-2" id="imgText">
                                 <h5 class="card-title text-light bg-secondary text-center mb-0 py-3">Sky Travelers</h5>
                             </div>
                         </div>
