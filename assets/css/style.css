@@ -1,6 +1,5 @@
 .headerBorder{
     border-bottom: 4px solid #ddd;
-    /* TODO border for header not large enough, currently not working */
 }
 
 .pFooter {
@@ -21,7 +20,7 @@ h1, h2 {
     /* TODO add margins between images in portfolio. */
 
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 680px) {
 
     #nameContainer{
         margin-left:0;
