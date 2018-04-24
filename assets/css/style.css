@@ -1,7 +1,7 @@
-.headerBorder{
+#navBody{
     border-bottom: 4px solid #ddd;
+    /* margin:0 auto; */
 }
-
 .pFooter {
     font-size: 10pt;
 }
@@ -16,11 +16,28 @@ h1, h2 {
     /* position: absolute; */
 }
 
-#imgContainer{
-    /* TODO add margins between images in portfolio. */
 
-}
+
 @media screen and (max-width: 640px) {
+
+    #navBody{
+        width:100%;
+        /* margin:0 auto; */
+    }
+
+    nav div.container{
+        margin:0 auto;
+        width:100%;
+    }
+
+    /* #navNameContainer{
+
+        justify-content: center;
+        width:100%;
+        margin-left:0;
+        margin-right:0;
+
+    } */
 
     #nameContainer{
         margin-left:0;
