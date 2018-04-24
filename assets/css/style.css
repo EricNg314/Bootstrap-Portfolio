@@ -2,6 +2,10 @@
     border-bottom: 4px solid #ddd;
     /* margin:0 auto; */
 }
+
+#headerBorder{
+    border-bottom: 4px solid #ddd;
+}
 .pFooter {
     font-size: 10pt;
 }
